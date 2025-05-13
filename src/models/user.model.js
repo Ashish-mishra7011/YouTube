@@ -32,7 +32,7 @@ const userSchema = Schema(
     coverImage: {
       type: String,
     },
-    wathHistory: [{ type: Schema.Types.ObjectId, ref: "Video" }],
+    watchHistory: [{ type: Schema.Types.ObjectId, ref: "Video" }],
     password: {
       type: String,
       required: [true, "Password is Required"],
